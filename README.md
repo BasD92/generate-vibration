@@ -1,2 +1,2 @@
 # generate-vibration
-Trilling genereren in riem, shirt of armband.
+Trilling genereren in riem, shirt of armband met een Arduino Nano en trillingsmotor. Aan de Arduino Nano zit een Wifi module (ESP8266) aangesloten, waardoor het berichten kan ontvangen van de broker. Dit bericht geeft door dat de bal tegen de paal is belandt en zorgt ervoor dat de trillingsmotor gaat trillen. Door middel van het MQTT communicatieprotocol kunnen berichten van de broker worden ontvangen. Dit is de zender: https://github.com/BasD92/sense-vibration
